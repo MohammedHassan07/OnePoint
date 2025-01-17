@@ -7,6 +7,8 @@ const CardList = (card) => {
     // function to make call
     function handleCall(phone) {
         console.log(phone)
+
+        window.open(`tel:${phone}`, '_self');
     }
 
     return (
